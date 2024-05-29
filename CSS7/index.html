@@ -8,13 +8,14 @@
 <body>
     <div class="encabezado">
         <span class="encabezado-izquierdo">
-            <button>- SECCIONES</button>
-            <button>Productos</button>                       
+            <button class="btn-secciones">- SECCIONES</button>
+            <img class="lupa" src="lupa.png" width="35" alt="">                      
         </span>
         <span class="encabezado-centro">
-            <img src="lanacion.jpeg" width="300" alt="">             
+            <img class="logo" src="lanacion.jpeg" width="350" alt="">             
         </span>
         <span class="encabezado-derecho">
+            <img class="campanita" src="campanita.jpeg" width="30" alt="">
             <button class="btn-iniciarsecion">INICIAR SESIÓN</button>
             <button class="btn-suscribirse">Suscribite por $1500</button>            
         </span>
@@ -22,30 +23,30 @@
     <DIV>
         <STyle>
             .encabezado{
-                border: 1px  solid black;
+                border: 1px  solid rgba(255, 255, 255, 0);
                 margin: 0 auto;
                 vertical-align: middle;
             }
             .encabezado-izquierdo{
                 width: 20%;
-                text-align: center;
+                text-align: center;                
                 vertical-align: middle;
                 display: inline-block;
-                border: 1px  solid black
+                border: 1px  solid rgba(255, 255, 255, 0)
             }
             .encabezado-centro{
                 width: 48%;
                 text-align: center;
                 vertical-align: middle;
                 display: inline-block;
-                border: 1px  solid black 
+                border: 1px  solid rgba(255, 255, 255, 0) 
             }
             .encabezado-derecho{
                 width: 30%;
                 text-align: right;
                 vertical-align: middle;
                 display: inline-block;
-                border: 1px  solid black
+                border: 1px  solid rgba(255, 253, 253, 0)
             }
             .btn-suscribirse{
                 border-radius: 3px;
@@ -69,9 +70,34 @@
                 padding-right: 20px;
                 padding-top: 10px;
                 padding-bottom: 10px;
-                font-size: 15px;
+                font-size: 13px;        
                 color: rgb(0, 0, 0);
                 margin-right: 5px;
+            }
+            .btn-secciones{
+                border-radius: 3px;
+                border-width: 1px;
+                border-color: rgba(255, 255, 255, 0);
+                background-color: rgb(255, 255, 255);
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 5px;
+                padding-bottom: 10px;
+                font-size: 15px;
+                color: rgb(0, 0, 0);
+                margin-right: 5px;                
+            }
+            .logo{
+                position: relative;
+                top: 4px;            
+            }    
+            .campanita{
+                position: relative;
+                top: 8px;
+            }
+            .lupa{
+                position: relative;
+                top: 8px;
             }
 
         </STyle> 
